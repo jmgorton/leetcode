@@ -8,3 +8,4 @@
 2026/01/13: 3453* Medium (Good test cases; 495ms <80%; first try) #heap 
 2026/01/14: 3454*+? Hard (TLE) #heap ... #segtree #union
 2026/01/15: 2943* Medium #sort 
+2026/01/16: 2975* Medium #sort #set #bigint

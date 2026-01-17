@@ -21,7 +21,7 @@ class OfficialSolution:
         for xi, yi, li in squares:
             events.append((yi, 1, xi, xi + li))
             events.append((yi + li, -1, xi, xi + li))
-            xCoordsSet.update([xi, xi + 1])
+            xCoordsSet.update([xi, xi + li])
         xCoords = sorted(xCoordsSet)
 
         segTree = SegmentTree(xCoords)

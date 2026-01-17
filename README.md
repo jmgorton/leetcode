@@ -9,3 +9,4 @@
 2026/01/14: 3454*+? Hard (TLE) #heap ... #segtree #union
 2026/01/15: 2943* Medium #sort 
 2026/01/16: 2975* Medium #sort #set #bigint
+2026/01/17: 3047* Medium #bruteforce #iterative

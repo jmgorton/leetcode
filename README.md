@@ -11,3 +11,4 @@
 2026/01/16: 2975* Medium #sort #set #bigint
 2026/01/17: 3047* Medium #bruteforce #iterative
 2026/01/18: 1895*+ Medium #bruteforce (My solution was pretty slow compared to the official and community best...)
+2026/01/19: 1292*+ Medium #memo #iterative #prefixsum

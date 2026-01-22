@@ -14,3 +14,4 @@
 2026/01/19: 1292*+ Medium #memo #iterative #prefixsum
 2026/01/20: 3314*? Easy #bitwise (Nice, easy yet interesting problem)
 2026/01/21: 3315*? Medium #bitwise (Same solution as yesterday, but interesting notes about a community solution that was fascinating, really genius, super clever) 
+2026/01/22: 3507*+ Easy (Pathetic... once again, refusing to do the "simple" brute force approach even when it's the correct choice)

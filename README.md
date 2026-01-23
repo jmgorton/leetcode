@@ -3,6 +3,7 @@
 `*`: Required (daily problem) 
 `+`: Needs Improvement (took a long time, poor performance, had to check a community submission, etc.)
 `?`: Topic to Research (curious or interesting problems) 
+`!`: Notably Nice or Clever Solution
 
 2026/01/12: 1266* Easy #oneline
 2026/01/13: 3453* Medium (Good test cases; 495ms <80%; first try) #heap 
@@ -15,3 +16,4 @@
 2026/01/20: 3314*? Easy #bitwise (Nice, easy yet interesting problem)
 2026/01/21: 3315*? Medium #bitwise (Same solution as yesterday, but interesting notes about a community solution that was fascinating, really genius, super clever) 
 2026/01/22: 3507*+ Easy (Pathetic... once again, refusing to do the "simple" brute force approach even when it's the correct choice)
+2026/01/23: 3510*! Hard (Maybe I wasn't so dumb yesterday... SO CLOSE! to passing on first submission ... 679/681 ... Got it second try. Feeling much better about myself than after yesterday's problem.) 

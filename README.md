@@ -19,3 +19,4 @@
 2026/01/23: 3510*! Hard (Maybe I wasn't so dumb yesterday... SO CLOSE! to passing on first submission ... 679/681 ... Got it second try. Feeling much better about myself than after yesterday's problem.) 
 2026/01/24: 1877* Medium (super easy)
 2026/01/25: 1984* Easy 
+2026/01/26: 1200* Easy

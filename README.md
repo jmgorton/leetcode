@@ -21,3 +21,4 @@
 2026/01/25: 1984* Easy #sort
 2026/01/26: 1200* Easy #sort
 2026/01/27: 3650* Medium #graph
+2026/01/28: 3651*? Hard #graph (i had a good approach, but missed some key optimizations and ultimately fell short, need to study this one)

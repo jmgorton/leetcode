@@ -22,3 +22,6 @@
 2026/01/26: 1200* Easy #sort
 2026/01/27: 3650* Medium #graph
 2026/01/28: 3651*? Hard #graph (i had a good approach, but missed some key optimizations and ultimately fell short, need to study this one)
+2026/01/29: 2976* Medium (pretty slow brute force solution accepted on first try, very easy... building the graph more intelligently would speed up massively)
+2026/01/30: 2977*+? Hard #trie #memo #graph
+2026/01/31: 744* Easy #oneline

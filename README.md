@@ -25,3 +25,4 @@
 2026/01/29: 2976* Medium (pretty slow brute force solution accepted on first try, very easy... building the graph more intelligently would speed up massively)
 2026/01/30: 2977*+? Hard #trie #memo #graph
 2026/01/31: 744* Easy #oneline
+2026/02/01: 3010* Easy #heap

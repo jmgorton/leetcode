@@ -26,3 +26,5 @@
 2026/01/30: 2977*+? Hard #trie #memo #graph
 2026/01/31: 744* Easy #oneline
 2026/02/01: 3010* Easy #heap
+2026/02/02: 3013* Hard 
+2026/02/03: 3637*! Easy #array

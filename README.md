@@ -28,3 +28,6 @@
 2026/02/01: 3010* Easy #heap
 2026/02/02: 3013* Hard 
 2026/02/03: 3637*! Easy #array
+2026/02/04: 3640* Hard #array
+2026/02/05: 3379* Easy #array
+2026/02/06: 3634* Medium #array #bisect

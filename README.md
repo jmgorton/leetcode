@@ -32,3 +32,4 @@
 2026/02/05: 3379* Easy #array
 2026/02/06: 3634* Medium #array #bisect
 2026/02/07: 1653* Medium #string
+2026/02/08: 110* Easy #binarytree

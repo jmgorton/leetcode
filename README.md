@@ -35,3 +35,4 @@
 2026/02/08: 110* Easy #binarytree
 2026/02/09: 1382*? Medium #binarytree
 2026/02/10: 3719*+? Medium #set #array
+2026/02/11: 3721* Hard

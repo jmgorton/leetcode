@@ -34,5 +34,6 @@
 2026/02/07: 1653* Medium #string
 2026/02/08: 110* Easy #binarytree
 2026/02/09: 1382*? Medium #binarytree
-2026/02/10: 3719*+? Medium #set #array
-2026/02/11: 3721* Hard
+2026/02/10: 3719*+? Medium #set #array (brute force)
+2026/02/11: 3721*+? Hard #prefixsum + #segtree (can't do brute force like yesterday's solution, also ai was able to get a logically correct solution but not optimized enough to pass the timeout)
+2026/02/12: 3713* Medium 

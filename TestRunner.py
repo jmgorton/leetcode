@@ -1,5 +1,6 @@
 from typing import List, Dict, Any
 import threading
+import time
 
 class TestRunner:
     def __init__(
@@ -27,13 +28,34 @@ class TestRunner:
         self.results = []
         self.results_lock = threading.Lock()
     
+    def _format_input_value(self, value: Any, max_len: int = 30) -> str:
+        """
+        Format a single input value, truncating with ellipsis if it exceeds max_len.
+        
+        Args:
+            value: The value to format
+            max_len: Maximum length before truncation
+            
+        Returns:
+            Formatted string representation of the value
+        """
+        str_value = str(value)
+        
+        # Check if value has a length property and exceeds max_len
+        if hasattr(value, '__len__') and len(str_value) > max_len:
+            return f"{str_value[:max_len]}... (len={len(value)})"
+        
+        return str_value
+    
     def run_test(self, test_case: Dict[str, Any]):
-        """Run a single test case and store the result."""
+        """Run a single test case and store the result with timing."""
         test_id = test_case["id"]
         expected = test_case["expected"]
         
         # Extract input parameters from test case
         input_kwargs = {key: test_case[key] for key in self.input_keys}
+        
+        start_time = time.time()
         
         try:
             # Call the solution method dynamically with provided parameters
@@ -41,13 +63,16 @@ class TestRunner:
             result = method(**input_kwargs)
             passed = result == expected
             
+            elapsed_time = time.time() - start_time
+            
             result_entry = {
                 "id": test_id,
                 **input_kwargs,  # Include all input parameters in the result
                 "result": result,
                 "expected": expected,
                 "passed": passed,
-                "error": None
+                "error": None,
+                "execution_time": elapsed_time
             }
             
             # Log result
@@ -56,13 +81,16 @@ class TestRunner:
             print(f"  Result: {result}, Expected: {expected}, {status}")
             
         except Exception as e:
+            elapsed_time = time.time() - start_time
+            
             result_entry = {
                 "id": test_id,
                 **input_kwargs,
                 "result": None,
                 "expected": expected,
                 "passed": False,
-                "error": str(e)
+                "error": str(e),
+                "execution_time": elapsed_time
             }
             # print(f"Test {test_id}: {nums}")
             print(f"  ERROR: {e}")
@@ -93,19 +121,24 @@ class TestRunner:
         total_count = len(self.results)
         
         for result in sorted(self.results, key=lambda x: x["id"]):
+
             status = "✓ PASS" if result["passed"] else "✗ FAIL"
             
-            # Build input display from input_keys
+            # Build input display from input_keys using truncation formatting
             input_display = ", ".join(
-                f"{key}={result[key]}"
+                f"{key}={self._format_input_value(result[key])}"
                 for key in self.input_keys
                 if key in result
             )
             
+            execution_time_str = f" ({result['execution_time'] * 1000:.2f}ms)"
+            
             if result["error"]:
-                print(f"  Test {result['id']}: {status} ({input_display}, Error: {result['error']})")
+                print(f"  Test {result['id']}: {status} ({input_display}, Error: {result['error']}){execution_time_str}")
+            elif result["passed"]:
+                print(f"  Test {result['id']}: {status} ({input_display}){execution_time_str}")
             else:
-                print(f"  Test {result['id']}: {status} ({input_display}, Result: {result['result']}, Expected: {result['expected']})")
+                print(f"  Test {result['id']}: {status} ({input_display}, Result: {result['result']}, Expected: {result['expected']}){execution_time_str}")
         
         print("=" * 70)
         print(f"Total: {passed_count}/{total_count} tests passed")

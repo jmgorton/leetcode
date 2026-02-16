@@ -36,4 +36,8 @@
 2026/02/09: 1382*? Medium #binarytree
 2026/02/10: 3719*+? Medium #set #array (brute force)
 2026/02/11: 3721*+? Hard #prefixsum + #segtree (can't do brute force like yesterday's solution, also ai was able to get a logically correct solution but not optimized enough to pass the timeout)
-2026/02/12: 3713* Medium 
+2026/02/12: 3713* Medium (brute force again...)
+2026/02/13: 3714* Medium (a similar but different brute force, the four previous problems including this one were all basically the same)
+2026/02/14: 799* Medium 
+2026/02/15: 67* Easy #bitops
+2026/02/16: 190* Easy #bitops

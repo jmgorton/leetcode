@@ -1,6 +1,12 @@
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional, Iterable
+import os
+from contextlib import redirect_stdout, redirect_stderr
 import threading
 import time
+
+### TODO NOTE: The debug flag suppresses output from a test case to dev/null,
+## but this is a process-wide setting, so throughput is limited, no longer 
+## multi-threaded behavior. Either give methods a debug flag or make subprocesses
 
 class TestRunner:
     def __init__(
@@ -9,6 +15,7 @@ class TestRunner:
         solution_cls: type,
         method_name: str,
         input_keys: List[str],
+        debug: Optional[Iterable[int] | bool] = None,
     ):
         """
         Initialize TestRunner for solution-agnostic test execution.
@@ -19,14 +26,26 @@ class TestRunner:
             method_name: Name of the method to call on the solution instance
             input_keys: List of parameter names that map to keys in test_case dict
                        e.g., ["s"] for longestBalanced(s), ["nums"] for solve(nums)
+            debug: Optional debug controls for solution print output.
+                   - True: enable debug output for all test cases
+                   - Iterable of test ids: enable debug output only for those test ids
+                   - None/False: suppress solution print output for all test cases
+                   You can also set {"debug": True} on individual test cases.
         """
         self.test_cases = test_cases
         self.solution_cls = solution_cls
         self.solution = solution_cls()
         self.method_name = method_name
         self.input_keys = input_keys
+        self.debug_all = debug is True
+        self.debug_ids = set(debug) if debug not in (None, False, True) else set()
         self.results = []
         self.results_lock = threading.Lock()
+        self.execution_lock = threading.Lock()
+
+    def _should_debug(self, test_case: Dict[str, Any]) -> bool:
+        """Return True when solution stdout/stderr should be visible for this test case."""
+        return self.debug_all or test_case.get("debug", False) or test_case["id"] in self.debug_ids
     
     def _format_input_value(self, value: Any, max_len: int = 30) -> str:
         """
@@ -60,7 +79,13 @@ class TestRunner:
         try:
             # Call the solution method dynamically with provided parameters
             method = getattr(self.solution, self.method_name)
-            result = method(**input_kwargs)
+            # redirect_stdout/redirect_stderr are process-wide; lock keeps behavior deterministic.
+            with self.execution_lock:
+                if self._should_debug(test_case):
+                    result = method(**input_kwargs)
+                else:
+                    with open(os.devnull, "w") as devnull, redirect_stdout(devnull), redirect_stderr(devnull):
+                        result = method(**input_kwargs)
             passed = result == expected
             
             elapsed_time = time.time() - start_time

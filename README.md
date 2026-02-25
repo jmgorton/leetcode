@@ -44,4 +44,11 @@
 2026/02/17: 401* Easy #bitops
 2026/02/18: 693* Easy #bitops 
 2026/02/19: 696* Easy #bitops #oneline
-2026/02/20: 761*+? Hard #bitops 
+2026/02/20: 761*+? Hard #bitops #dp? 
+2026/02/21: 762* Easy #bitops 
+2026/02/22: 868* Easy #bitops 
+
+2026/02/23: 1461* Medium (!!!come back and do this one...) 
+2026/02/24: 1022* Easy #binarytree #bitops (first try) 
+
+2026/02/25: 1356* Easy #bitops #oneline (first try) 

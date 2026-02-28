@@ -53,3 +53,5 @@
 
 2026/02/25: 1356* Easy #bitops #oneline (first try) 
 2026/02/26: 1404* Medium #bitops (similar to the Collatz conjecture - 3x+1 problem ... first try) 
+
+2026/02/28: 1680* Medium #bitops #oneline (first try) 

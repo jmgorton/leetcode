@@ -5,6 +5,10 @@
 `?`: Topic to Research (curious or interesting problems) 
 `!`: Notably Nice or Clever Solution
 
+## 2026
+
+### January
+
 2026/01/12: 1266* Easy #oneline
 2026/01/13: 3453* Medium (Good test cases; 495ms <80%; first try) #heap 
 2026/01/14: 3454*+? Hard (TLE) #heap ... #segtree #union
@@ -25,6 +29,9 @@
 2026/01/29: 2976* Medium (pretty slow brute force solution accepted on first try, very easy... building the graph more intelligently would speed up massively)
 2026/01/30: 2977*+? Hard #trie #memo #graph
 2026/01/31: 744* Easy #oneline
+
+### February
+
 2026/02/01: 3010* Easy #heap
 2026/02/02: 3013*+ Hard 
 2026/02/03: 3637*! Easy #array
@@ -47,11 +54,13 @@
 2026/02/20: 761*+? Hard #bitops #dp? 
 2026/02/21: 762* Easy #bitops 
 2026/02/22: 868* Easy #bitops 
-
 2026/02/23: 1461* Medium (!!!come back and do this one...) 
 2026/02/24: 1022* Easy #binarytree #bitops (first try) 
-
 2026/02/25: 1356* Easy #bitops #oneline (first try) 
 2026/02/26: 1404* Medium #bitops (similar to the Collatz conjecture - 3x+1 problem ... first try) 
-
+2026/02/27: 3666* Hard (!!!FAIL, RETRY) 
 2026/02/28: 1680* Medium #bitops #oneline (first try) 
+
+### March
+
+2026/03/01: 1689* Medium #oneline (first try) 

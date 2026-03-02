@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "leettest"
+version = "0.1.0"
+description = "Test runner for LeetCode solutions"
+authors = [{name = "Jared Gorton"}]
+requires-python = ">=3.9"
+dependencies = []
+
+[tool.setuptools]
+packages = ["leettest"]

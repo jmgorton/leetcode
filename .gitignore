@@ -1,2 +1,9 @@
+# Build artifacts
+*.egg-info/
+dist/
+build/
+__pycache__/
 __pycache__
 **/__pycache__
+
+venv/

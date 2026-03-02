@@ -6,6 +6,10 @@
 
 Sliding Window
 
+Greedy Selection
+
+- 1536 Minimum Swaps to Arrange a Binary Grid
+
 ### Data Structures
 
 Segment Tree
@@ -36,6 +40,7 @@ Collatz Conjecture
 2026/02/10: 3719 Medium #set #array (brute force)
 2026/02/11: 3721 Hard #prefixsum + #segtree (can't do brute force like yesterday's solution, also ai was able to get a logically correct solution but not optimized enough to pass the timeout)
 2026/02/20: 761 Hard #bitops #dp? 
+2026/03/02: 1536 Medium #greedy
 
 ### Retry / Skipped / Catch Up: 
 

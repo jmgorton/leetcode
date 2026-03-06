@@ -68,3 +68,4 @@
 2026/03/03: 1545* Medium #recursion
 2026/03/04: 1582* Easy 
 2026/03/05: 1758* Easy 
+2026/03/06: 1784* Easy #oneline #firsttry 

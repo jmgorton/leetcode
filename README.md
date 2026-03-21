@@ -69,3 +69,18 @@
 2026/03/04: 1582* Easy 
 2026/03/05: 1758* Easy 
 2026/03/06: 1784* Easy #oneline #firsttry 
+2026/03/07: 1888*+? Medium (didn't quite solve this one properly)
+2026/03/08: 1980* Medium #firsttry (easy, basically that one uncountably infinite proof) 
+2026/03/09: 3129* Medium #math #dp
+2026/03/10: 3130* Hard #math #dp 
+2026/03/11: 1009* Easy #oneline #firsttry 
+2026/03/12: 3600* Hard 
+2026/03/13: 3296* Medium #heap #firsttry 
+2026/03/14: 1415* Medium (meh) 
+2026/03/15: 1622* Hard (OOF, tough math in this one ... multiplicative inverse) 
+2026/03/16: 1878* Medium MISSED (TTT) attempted, ran out of time, then got it wrong... come back to this one 
+2026/03/17: 1727* Medium SKIPPED COME BACK 
+2026/03/18: 3070* Medium #dp #memo (pretty easy)
+2026/03/19: 3212* Medium #dp #memo (very easy and similar to yesterday's)
+2026/03/20: 3567* Medium #bruteforce
+2026/03/21: 3643* Easy 

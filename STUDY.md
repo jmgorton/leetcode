@@ -16,6 +16,7 @@ Segment Tree
 - 3721 Longest Balanced Subarray II
 
 Heap
+- 3296 Minimum Number of Seconds to Make Mountain Height Zero
 
 ### Mathematics 
 
@@ -26,6 +27,10 @@ Prime Numbers
 Collatz Conjecture
 
 - 1404 Number of Steps to Reduce a Number in Binary Representation to One
+
+Factorials
+
+- 3129 Find All Possible Stable Binary Arrays I 
 
 ## Problems
 
@@ -41,6 +46,11 @@ Collatz Conjecture
 2026/02/11: 3721 Hard #prefixsum + #segtree (can't do brute force like yesterday's solution, also ai was able to get a logically correct solution but not optimized enough to pass the timeout)
 2026/02/20: 761 Hard #bitops #dp? 
 2026/03/02: 1536 Medium #greedy
+2026/03/07: 1888 Medium #prefixsum + #postfixsum 
+2026/03/09: 3129 Medium #math #dp
+2026/03/10: 3130 Hard #math #dp 
+2026/03/12: 3600 Hard #graph 
+2026/03/15: 1622 Hard #math (OOF) 
 
 ### Retry / Skipped / Catch Up: 
 
@@ -49,4 +59,6 @@ Collatz Conjecture
 2026/02/14: 799* Medium 
 2026/02/20: 761 Hard #bitops #dp? ??? Special Binary String 
 2026/02/23: 1461 Medium (!!!come back and do this one...) 
-
+2026/03/12: 3600 Hard 
+2026/03/16: 1878 Medium 
+2026/03/17: 1727 Medium

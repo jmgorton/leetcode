@@ -83,5 +83,6 @@
 2026/03/18: 3070* Medium #dp #memo (pretty easy)
 2026/03/19: 3212* Medium #dp #memo (very easy and similar to yesterday's)
 2026/03/20: 3567* Medium #bruteforce
-2026/03/21: 3643* Easy 
+2026/03/21: 3643* Easy
 2026/03/22: 1886* Easy (used built-ins excessively - chain, zip, unpack)
+2026/03/23: 1594* Medium #dp #memo (pretty easy problem) 

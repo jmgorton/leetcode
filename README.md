@@ -7,6 +7,10 @@
 
 ## 2026
 
+### April
+
+2026/04/01: 2751* Hard 
+
 ### January
 
 2026/01/12: 1266* Easy #oneline
@@ -86,3 +90,11 @@
 2026/03/21: 3643* Easy
 2026/03/22: 1886* Easy (used built-ins excessively - chain, zip, unpack)
 2026/03/23: 1594* Medium #dp #memo (pretty easy problem) 
+2026/03/24: 2906* Medium #dp #prefix #postfix (used hints, used TTT) 
+2026/03/25: 3546* Medium 
+2026/03/26: 3548* Hard (fix, resubmit) *** USE TTT *** 
+2026/03/27: 2946* Easy #firsttry 
+2026/03/28: 2573* Hard (missed) *** USE TTT *** 
+2026/03/29: 2839* Easy #firsttry #oneline 
+2026/03/30: 2840* Medium #firsttry #oneline (missed, used TTT) 
+2026/03/31: 

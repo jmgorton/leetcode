@@ -9,6 +9,7 @@
 
 ### April
 
+2026/04/16: 3488* Medium 
 2026/04/15: 2515* Easy 
 2026/04/14: 2463* Hard *** TODO: SKIPPED - COME BACk ***
 2026/04/13: 1848* Easy 

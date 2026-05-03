@@ -7,8 +7,28 @@
 
 ## 2026
 
+### May
+
+2026/05/03: 796* Easy #oneline (reminds me of the "hard" capital one problem i solved optimally back in the day... lexicographically minimum strings used as keys ... good times) 
+2026/05/02: 788* Medium *** RETRY ***
+2026/05/01: 396* Medium *** RETRY TODO: USE TTT *** 
+
 ### April
 
+2026/04/30: 3742* Medium MLE... meh, tired *** RETRY *** 
+2026/04/29: 3225* Hard *** RETRY *** 
+2026/04/28: 2033* Medium #prefix #postfix 
+2026/04/27: 1391* ???? *** MISSED TODO: USE TTT *** 
+2026/04/26: 1559* ???? *** TODO: USE TTT (MISSED) ***
+2026/04/25: 3464* Hard *** RETRY ***
+2026/04/24: 2833* Easy *** TODO: USE TTT ***
+2026/04/23: 2615* Medium #array #optimization (TLE) *** RETRY/OPTIMIZE TODO: USE TTT *** 
+2026/04/22: 2452* Medium #trie
+2026/04/21: 1722* Medium #unionfind *** FINISH/RETRY *** 
+2026/04/20: 2078* Easy 
+2026/04/19: 1855* Medium 
+2026/04/18: 3783* Easy #oneline
+2026/04/17: 3761* Medium *** TODO: USE TTT ***
 2026/04/16: 3488* Medium 
 2026/04/15: 2515* Easy 
 2026/04/14: 2463* Hard *** TODO: SKIPPED - COME BACk ***
